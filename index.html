@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Website Blog Ust M. Nadzif</title>
+  <link rel="icon" type="image/x-icon" href="images/Logo-Nu.png">
   <link href="./output.css" rel="stylesheet">
   <link rel="stylesheet" href="./style/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
@@ -13,10 +14,9 @@
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between items-center">
                 <div class="flex space-x-4">
-                    <!-- Logo -->
-                    <div id="logo" class="">
+                    <div>
                         <a href="" class="flex items-center py-5 px-2 text-white">
-                            <span class="font-bold font-roboto">Ust M. Nadzif</span>
+                            <span class="font-bold font-roboto">KH Muhammad Nadzif</span>
                         </a>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
             <div class="flex justify-between items-center">
                 <div id="mobile-logo" class="hidden md:block">
                     <a href="#" class="flex items-center py-5 px-2 text-gray-700">
-                        <span class="font-bold">Ust M. Nadzif</span>
+                        <span class="font-bold">KH Muhammad Nadzif</span>
                     </a>
                 </div>
                 <button class="mobile-menu-button-close" id="mobile-menu-button-close">
@@ -89,31 +89,79 @@
         <div class="slide active h-screen w-full bg-cover bg-center" style="background-image: url('https://thumb.vlix.id/media/frontend/thumbs3/2019/04/08/5cab3d9b2e88a-konfrensi-ulama-sufi-dunia_1265_711.jpg');">
             <div class="flex flex-col items-center justify-center h-full text-white bg-black bg-opacity-70">
                 <h1 class="text-4xl md:text-6xl font-roboto-slab font-bold mb-4">Ahlan Wa Sahlan!</h1>
-                <p class="text-md md:text-xl font-roboto">Mengenal lebih dekat dengan Ust M. Nadzif</p>
+                <p class="text-md md:text-xl font-roboto mb-4">Mengenal lebih dekat dengan KH M. Nadzif</p>
+    
+                <div class="relative inline-block">
+                    <button id="popover-button" class="bg-teal-500 text-white p-2 rounded-full hover:bg-teal-600 transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2v10m0 4h.01" />
+                        </svg>
+                    </button>
+                    <div
+                        id="popover-text"
+                        class="opacity-0 invisible absolute w-48 mt-2 text-gray-800 border border-gray-300 rounded-lg shadow-lg z-10 transition-opacity duration-300 ease-in-out">
+                        <p class="px-2 font-roboto py-2">Website masih dalam proses pengembangan</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="bg-green-800 px-6 py-2 w-full h-24">
-        <p class="text-center font-roboto text-white">Website masih dalam proses pengembangan.</p>
+    
+    <div class="container mx-auto p-4 pt-16">
+        <h1 class="text-3xl md:text-3xl lg:text-4xl font-bold font-roboto-slab text-center mb-6">Pengajian</h1>
+        
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="relative">
+                    <iframe class="w-full h-48 rounded-lg" src="https://www.youtube.com/embed/jkPZyAZvAo8?si=306hVaO-ps_AN-Kl" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="p-4">
+                    <h2 class="text-md font-roboto font-semibold">NGAJI BARENG KH. MUHAMMAD NADZIIF DARI CIBANGKONG KEC. PEKUNCEN KAB. BANYUMAS</h2>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="relative">
+                    <iframe class="w-full h-48 rounded-lg" src="https://www.youtube.com/embed/imKH7bkM7b8?si=KI3kLLD65UbmgZ7t" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="p-4">
+                    <h2 class="text-md font-roboto font-semibold">PENGAJIAN KH. MUHAMMAD NADZIF DARI CIBANGKONG KEC. PEKUNCEN</h2>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="relative">
+                    <iframe class="w-full h-48 rounded-lg" src="https://www.youtube.com/embed/_-Tc91EUEWg?si=ERrCLT8W_d1rRXWv" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="p-4">
+                    <h2 class="text-md font-roboto font-semibold">NGAJI NGAPAK LUCU KH.MUHAMMAD NADZIF DARI CIBANGKONG PEKUNCEN</h2>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    
-    
     
     <div class="container mx-auto md:pt-20 px-4 py-8">
         <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold font-roboto-slab text-center mb-8">
             Pondok Pesantren News, Blog and Information
         </h1>
-        <!-- Card 1 -->
+
         <div class="flex flex-col lg:pt-9 lg:flex-row gap-8 items-stretch">
-            <!-- Image container -->
+
             <div class="w-full lg:w-1/3 flex items-center">
                 <img src="https://v-images2.antarafoto.com/mengaji-kitab-kuning-lp8w2m-hl.jpg" 
                      alt="Santri belajar di pondok pesantren" 
                      class="w-full h-auto object-cover rounded-lg max-h-64">
             </div>
     
-            <!-- Text content -->
             <div class="w-full lg:w-2/3 flex flex-col justify-center">
                 <h2 class="text-lg font-semibold font-roboto text-green-600 mb-2">SELAMAT DATANG, DI PONDOK PESANTREN</h2>
                 <h3 class="text-xl md:text-3xl font-bold font-roboto-slab mb-4">Metode Pembelajaran Pondok Pesantren</h3>
@@ -123,16 +171,13 @@
             </div>
         </div>
 
-        <!-- Card 2 -->
         <div class="flex flex-col pt-12 lg:pt-12 lg:flex-row gap-8 items-stretch">
-            <!-- Image container -->
             <div class="w-full lg:w-1/3 flex items-center">
                 <img src="https://v-images2.antarafoto.com/mengaji-kitab-kuning-lp8w2m-hl.jpg" 
                      alt="Santri belajar di pondok pesantren" 
                      class="w-full h-auto object-cover rounded-lg max-h-64">
             </div>
     
-            <!-- Text content -->
             <div class="w-full lg:w-2/3 flex flex-col justify-center">
                 <h2 class="text-lg font-semibold font-roboto text-green-600 mb-2">SELAMAT DATANG, DI PONDOK PESANTREN</h2>
                 <h3 class="text-xl md:text-3xl font-bold font-roboto-slab mb-4">Metode Pembelajaran Pondok Pesantren</h3>
@@ -141,16 +186,15 @@
                 </p>
             </div>
         </div>
-        <!-- Card 3 -->
+
         <div class="flex flex-col pt-12  lg:pt-12 lg:flex-row gap-8 items-stretch">
-            <!-- Image container -->
+
             <div class="w-full lg:w-1/3 flex items-center">
                 <img src="https://v-images2.antarafoto.com/mengaji-kitab-kuning-lp8w2m-hl.jpg" 
                      alt="Santri belajar di pondok pesantren" 
                      class="w-full h-auto object-cover rounded-lg max-h-64">
             </div>
     
-            <!-- Text content -->
             <div class="w-full lg:w-2/3 flex flex-col justify-center">
                 <h2 class="text-lg font-semibold font-roboto text-green-600 mb-2">SELAMAT DATANG, DI PONDOK PESANTREN</h2>
                 <h3 class="text-xl md:text-3xl font-bold font-roboto-slab mb-4">Metode Pembelajaran Pondok Pesantren</h3>
@@ -203,12 +247,11 @@
         </section>
     </div> -->
 
-    <!-- Footer -->
     <footer>
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="py-7 border-t border-gray-300">
                 <div class="flex items-center justify-center text-center">
-                    <span class="text-gray-700 font-roboto font-light text-sm sm:text-base">
+                    <span class="text-gray-700 font-roboto font-light text-md sm:text-base">
                         Copyright © 2024 Kh. Muhammad Nadzif, All rights reserved.
                     </span>
                 </div>
@@ -216,7 +259,15 @@
         </div>
     </footer>
     
+    <script>
+        const button = document.getElementById('popover-button');
+        const popover = document.getElementById('popover-text');
     
+        button.addEventListener('click', function() {
+            popover.classList.toggle('invisible');
+            popover.classList.toggle('opacity-100');
+        });
+    </script>
     <script src="./js/navbar.js"></script>
 </body>
 </html>
